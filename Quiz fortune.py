@@ -114,7 +114,7 @@ answers = [
 # setting the rewards
 
 total_cash_price = 100000
-total_questions = 50
+total_questions = len(questions)
 cash_per_question = total_cash_price // total_questions
 
 #initialize the quiz's variables
@@ -142,4 +142,5 @@ for i in range(total_questions):
 
 print("##QUIZ COMPLETED##")
 print(f"your_score: {score}/{total_questions}")
+
 print(f"cash_price_won: Rs.{cash_won}/-")
